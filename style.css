@@ -14,12 +14,16 @@ nav #bt-mobile-menu {
 }
 
 h2, h3, h4, h5, h6 {
-    background-color: #ffc600;
-  
+    background-color: #9162e4;
+    
 }
+nav a:hover {
+    background-color: white;
+  }
+
 
 nav{
-    background-image: linear-gradient(red, yellow);
+    background-image: linear-gradient(#5e35b1, #9162e4);
 }
 
 nav ul {
@@ -44,7 +48,7 @@ nav ul > li >a > img {
 }
 
 #banner {
-    background-color: #6BFFFD;
+    background-color: #9162e4;
 }
 
 
@@ -57,7 +61,7 @@ nav ul > li >a > img {
 
 #galeria {
     max-height: 20%;
-    background-color: #ffc600;
+    background-color: #9162e4;
 }
 
 #galeria >img {
@@ -79,7 +83,7 @@ nav ul > li >a > img {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        background-color:#6BFFFD;
+        background-color:#c7a4ff;
         border-radius: 5%; 
 }
 
@@ -95,7 +99,7 @@ nav ul > li >a > img {
 
 
 #regras {
-    background-color: #6BFFFD;
+    background-color:#9162e4;
 }
 
 #regras > p {
@@ -103,7 +107,7 @@ nav ul > li >a > img {
 }
 
 footer {
-   background-color: #ffc600;
+    background-image: linear-gradient( #9162e4,#5e35b1);
 }
 @media (max-width: 980px) {
     
@@ -203,8 +207,10 @@ footer {
 
     }
 
-    #fotos2 img{
+    #fotos2 img {
         width:5em;
         height:4em;
+    }
   
+}
 }

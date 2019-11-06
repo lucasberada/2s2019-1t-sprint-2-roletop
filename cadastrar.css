@@ -10,7 +10,7 @@ body {
 }
 
 h2, h3, h4, h5, h6 {
-    background-color: #ffc600;
+    background-color: #9162e4;
   
 }
 
@@ -19,7 +19,7 @@ nav #bt-mobile-menu {
 }
 
 nav{
-    background-image: linear-gradient(red, yellow);
+    background-image: linear-gradient(#5e35b1, #9162e4);
 }
 
 nav ul {
@@ -44,7 +44,7 @@ nav ul > li >a > img {
 }
 
 #banner {
-    background-color: #9b89ff;
+    background-color: #9162e4;
 }
 
 
@@ -54,7 +54,7 @@ nav ul > li >a > img {
 }
 
 #login {
-    background-color: #ffc600;
+    background-color: #9162e4;
 }
 
 #caixa  {
@@ -66,7 +66,7 @@ nav ul > li >a > img {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        background-color: #9b89ff;
+        background-color: #9162e4;
         border-radius: 5%; 
         text-align: center;
         justify-content: center;
@@ -83,11 +83,11 @@ nav ul > li >a > img {
 }
 
 footer {
-   background-color: #ffc600;
+   background-color: #9162e4;
 }
 
 #br {
-    background-color: #ffc600;
+    background-color: #9162e4;
 }
 
 #name {
@@ -112,44 +112,106 @@ footer {
         height: 500px;
     }
 }
-
 @media (max-width: 920px) {
 
-      #nav >ul >li {
-        font-size: 20px;
+    #nav >ul >li {
+      font-size: 20px;
 
-      }
+    }
 }
 
 @media (max-width:810px) {
-    #nav >ul >li {
-        font-size: 15px;
-    }
+  #nav >ul >li {
+      font-size: 15px;
+  }
 }
 
 
 
 @media (max-width: 625px) {
-    
+  
 
-    nav #bt-mobile-menu {
-        display: block;
+  nav #bt-mobile-menu {
+      display: block;
+  }
+
+  nav .bt-common-menu {
+      display: none;
+  }
+
+  nav .bt-common-menu.active {
+      display: block;
+  }
+
+  nav ul.mobile-mode {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  #nav {
+      position: absolute;
+      background-color: #ffc600;
+  }
+}
+
+@media (max-width: 520px) {
+  #banner img{
+      width:  300px;
+      height: 200px;
+  }
+
+  #caixa {
+      width:  200px;
+       height: 200px;
+   }
+
+   
+  #fotos img{
+      width:5em;
+      height:5em;
+
     }
 
-    nav .bt-common-menu {
-        display: none;
-    }
+    #fotos2 img{
+        width:5em;
+        height:4em;
 
-    nav .bt-common-menu.active {
-        display: block;
-    }
+   }
 
-    nav ul.mobile-mode {
-        display: flex;
-        flex-direction: column;
-    }
-    #nav {
-        position: absolute;
-        background-color: #ffc600;
-    }
+   #caixa{
+       background-size: 50px;
+       font-size: 10px;
+       
+   }
+
+   #email {
+      width: 100px;
+   }
+
+   #senha {
+       width: 100px;
+   }
+
+  
+  
+
+}
+
+@media (max-width: 400px) {
+  #caixa {
+      width:  200px;
+       height: 200px;
+   }
+
+   #banner img{
+      width:  300px;
+      height: 100px;
+  }
+}
+
+@media (max-width: 330px) {
+  #banner img {
+      width:  250px;
+      height: 100px;
+  }
 }

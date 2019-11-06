@@ -76,11 +76,10 @@ nav ul > li >a > img {
 }
 
 #caixa form  {
-    width: 100em;
     border: none;
     justify-content: center;
     align-items: center;
-    padding: 0 2px;
+    padding: 0 px;
 }
 
 footer {
@@ -182,6 +181,24 @@ footer {
       #fotos2 img{
           width:5em;
           height:4em;
+
+     }
+
+     #caixa{
+         background-size: 50px;
+         font-size: 10px;
+         
+     }
+
+     #email {
+        width: 100px;
+     }
+
+     #senha {
+         width: 100px;
+     }
+
+    
     
 
 }
@@ -194,6 +211,13 @@ footer {
 
      #banner img{
         width:  300px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 330px) {
+    #banner img {
+        width:  250px;
         height: 100px;
     }
 }
